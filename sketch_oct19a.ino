@@ -21,7 +21,7 @@ void loop() {
   
   delay(1000);      // gap between reloads
 
-  float hum = dht1.readHumidity(); //humidity value 
+  float hum = dht1.readHumidity(); // humidity value 
   float tem = dht1.readTemperature(); // temperature value
 
   // checking for failures
